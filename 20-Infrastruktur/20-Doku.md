@@ -73,7 +73,3 @@ Durch den Einsatz von Vagrant und Shell-Scripts wurde eine Dynamic Infrastructur
 1. Programmierbar ist: Die gesamte Umgebung existiert als Code.
 2. On-demand funktioniert: Mit `vagrant destroy -f` und `vagrant up` lässt sich die Umgebung in Sekunden vernichten und identisch wiederherstellen.
 3. Self-Service bietet: Ressourcenanpassungen (z.B. RAM) erfolgen nur durch eine Zeile im File.
-
----
-
-Das ist eine saubere Dokumentation für dein Portfolio, Master Nico! Soll ich dir noch zeigen, wie du den Abschnitt über Packer oder die AWS Cloud (optional) noch als "Zusatzleistung" in den gleichen Stil bringst?
