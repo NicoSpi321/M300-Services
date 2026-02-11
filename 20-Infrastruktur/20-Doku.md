@@ -62,7 +62,7 @@ Dank des definierten Port-Forwardings konnte die erfolgreiche Bereitstellung der
 
 Ergebnis: `http://localhost:8080` zeigt die Apache-Standardseite.
 
-![ApacheStartSeite](M300-20-4.png)
+![ApacheStartSeite](M300-20-5.png)
 
 ---
 
