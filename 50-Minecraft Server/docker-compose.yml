@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565" # Standard Minecraft Port
+    environment:
+      EULA: "TRUE"    # Notwendig, um den Server zu starten
+      VERSION: "1.21.1" # Installiert die aktuellste Version
+      TYPE: "PAPER"   # Performance-optimierte Server-Software
+      MEMORY: "2G"    # Arbeitsspeicher-Zuweisung
+    volumes:
+      - ./minecraft-data:/data # Persistente Speicherung der Welt auf dem Host
+    restart: unless-stopped

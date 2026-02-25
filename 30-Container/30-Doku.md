@@ -19,6 +19,8 @@ Verwendete Befehle im Terminal:
 `docker ps -a`: Anzeige aller aktiven und beendeten Container auf dem System.
 `docker images`: Auflistung aller lokal gespeicherten Container-Images.
 
+![Script](M300-30-2.png)
+
 ### Erstellung eigener Images (Dockerfile)
 
 Ein **Dockerfile** dient als Bauplan für neue Images. Jede Anweisung erzeugt eine neue Imageschicht (Layer).
@@ -49,3 +51,5 @@ Zur Validierung der laufenden Container-Infrastruktur wurden folgende Diagnose-B
 
 `docker inspect [container_id]`: Abfrage detaillierter Konfigurations- und Netzwerkeinstellungen.
 `docker logs [container_id]`: Einsicht in die Standard-Ausgabe (Logs) des Prozesses innerhalb des Containers.
+
+![GhostStartSeite](M300-30-1.png)
